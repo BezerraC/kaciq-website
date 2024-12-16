@@ -25,6 +25,7 @@ app.use((req, res) => {
     res.status(404).render("layout", {
         body: '404',
         title: "Error 404",
+        bgColor: 'dark'
       });;
 });
 

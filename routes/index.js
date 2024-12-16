@@ -5,6 +5,7 @@ router.get('/', (req, res) => {
     res.render("layout", {
         body: 'home',
         title: "Home",
+        bgColor: 'light'
       });
 });
 
