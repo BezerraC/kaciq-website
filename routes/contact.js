@@ -5,7 +5,7 @@ router.get('/', (req, res) => {
     res.render("layout", {
         body: 'contact',
         title: "Contato",
-        bgColor: 'dark'
+        bgColor: 'light'
       });
 });
 
