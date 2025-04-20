@@ -634,10 +634,6 @@ $(function () {
     $(".sticky-item").stick_in_parent();
 
 
-    /* ========== YouTubePopUp ========== */
-
-    $("a.vid").YouTubePopUp();
-
 
 });
 
